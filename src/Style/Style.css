@@ -1,0 +1,140 @@
+.Post {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+.Post .PostPost {
+  padding: 2em;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 1015px;
+}
+.Post .PostPost .back {
+  text-decoration: underline;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1em;
+  font-size: 15px;
+  color: black;
+  opacity: 70%;
+  cursor: pointer;
+}
+.Post .PostPost .body_content {
+  font-weight: 400;
+}
+.Post .PostPost .body {
+  margin-top: 1em;
+}
+.Post .PostPost .Comment_input {
+  width: 500px;
+}
+.Post .PostPost .Comment_input:focus {
+  outline: none;
+}
+.Post .PostPost .PostHeader {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.Post .PostPost .PostHeader .buttons_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Post .PostPost .PostHeader .buttons_wrapper .button:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.Post .PostPost .PostHeader .buttons_wrapper .button:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Post .PostPost .PostHeader .buttons_wrapper .button {
+  height: 32px;
+  width: 74px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.25px;
+  color: #333333;
+  transition: 0.2s;
+}
+.Post .PostPost .PostHeader .buttons_wrapper .button:hover {
+  background: rgb(247, 247, 247);
+}
+.Post .PostPost .Comments {
+  margin-top: 1em;
+}
+.Post .PostPost .Comments h2 {
+  margin: 1em 0;
+}
+.Post .PostPost .Comments .Comment_list {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 1em;
+  overflow-y: scroll;
+  height: 300px;
+  border-radius: 20px;
+}
+.Post .PostPost .Comments .Comment_list .Comment {
+  list-style: none;
+  padding: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+.Post .PostPost .Comments .Comment_list .Comment .Comment_usename {
+  opacity: 0.6;
+}
+
+.PostTitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+  color: #333333;
+}
+
+.subPostTitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  color: #9c9c9c;
+}
+
+input,
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  resize: none;
+  padding: 0.2em 1em;
+}
+
+.input {
+  font-weight: 100;
+}/*# sourceMappingURL=Style.css.map */
